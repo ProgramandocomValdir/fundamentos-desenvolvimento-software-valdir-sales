@@ -48,7 +48,12 @@ ul li {
     font-size: 23px;
     color: darkblue;
 }
-
+@media (max-width: 600px) {
+ul li {
+        font-size: 26px;
+        line-height: 2.2em;
+    }
+}
 a {
     color: #2e8b57;
     text-decoration: none;
