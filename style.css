@@ -11,23 +11,35 @@ h1 {
     color: #2e8b57;
     text-align: center;
 }
+
 h2 {
-    text-align: center;
-    margin-top: 30px;
+    text-align:center;
+
+}
+
+.h2-paises {
+    color: darkblue;
 }
 
 p {
     font-size: 18px;
-    text-align: left;
+    text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    hyphens: auto;
+    line-height: 1.5;
 }
 
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
 ul li {
     line-height: 2em;
     padding-left: 20px;
     margin-bottom: 10px;
+    font-size: 20px;
+    color: darkblue;
 }
 
 a {
@@ -44,6 +56,9 @@ img {
     margin: 20px auto;
 }
 
+.centralizado {
+    text-align: center;
+}
 
 .table-container {
     overflow-y: auto;
