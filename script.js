@@ -3,4 +3,11 @@ function mostrarMensagem() {
     const div = document.getElementById("mensagem");
     div.textContent = mensagem;
     
+    div.scrollIntoView({behavior:
+    "smooth"
+    });
+
+    setTimeout(function() {
+        div.textContent = "";
+    }, 5000)
 }
