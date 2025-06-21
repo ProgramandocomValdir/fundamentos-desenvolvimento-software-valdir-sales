@@ -1,5 +1,6 @@
 function mostrarMensagem() {
-    const mensagem = "Olá! Que O Senhor Jesus seja sempre a nossa melhor companhia!";
+    const mensagem = "Olá, seja bem-vindo(a)! Obrigado por visitar meu site!";
     const div = document.getElementById("mensagem");
     div.textContent = mensagem;
+    
 }

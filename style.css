@@ -1,93 +1,128 @@
-
-img {
-    border-radius: 8px;
-    max-width:70%;
-    height: auto;
-}
-
-h1 {
-    color: olive;    
-    text-align: center;
-    font-size:  35px;
-    margin-top: 20px;
-}
-p {
-    text-align: justify;
-}   
 body {
-    background-color: lavender;
+    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 5px;
-    font-size: 20px; 
-    color: darkslategrey;
-    padding: 30px;
+    padding: 20px;
 }
-ul li {
-    margin-bottom: 12px;
-    color: rgb(173, 10, 202);
+h1 {
+    color: #2e8b57;
+    text-align: center;
 }
 h2 {
-    color: olive;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-
+    text-align:center;
 }
-.galeria {
-    text-align: center;
-
-
+.h2-paises {
+    color: darkblue;
+    font-size: 23px;
 }
+p {
+    font-size: 18px;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+ul li {
+    line-height: 2em;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: darkblue;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    .canal-youtube {
+        font-size: 22px;
+    }
+    .botao-mensagem {
+        font-size: 24px;
+        padding: 12px 24px;
+    }
+    ul li {
+        font-size: 26px;
+        line-height: 2.2em;
+    }
 
-.galeria img {
-    margin: 12px;
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    .table-container {
+        overflow-x: auto;
+    }
+    table {
+        min-width: 400px;
+        width: 100%;
+    }
+    h1, h2, p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.canal-youtube {
+    font-size: 23px;
+    text-align: center;
+    margin: 20px 0;
+}
+.botao-mensagem {
+    font-size:25px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    background:  #ff4500;
+    color: white;
+    border: none;
     border-radius: 8px;
-
-
+    cursor:pointer;
+} 
+.botao-mensagem:hover {
+    background-color: #1e6840;
+    }
+a:hover {
+    color: #cc3700;
+}
+.centralizado {
+    text-align: center;
 }
 .table-container {
     overflow-y: auto;
-    border-radius: 8px;
     border:3px solid #ccc;
     max-height: 500px;
-    margin-top: 20px;
 }
 table {
     width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-collapse:collapse;
-    background-color: rgb(210, 203, 212);  
-}
-table img {
-    width: 800px;
-    height: auto;
-    border-radius: 8px;
+    margin: 20px auto;
+    border-collapse: collapse;
 }
 th, td {
-    border: 1px solid #ccc;
-    border-radius: 6px;
     padding: 10px;
+    border: 1px solid #ccc;
     text-align: center;
-    border: 3px solid rgb(158, 85, 174);
 }
-button {
-    background-color: grey;
-    color: black;
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
+th {
+    background-color: #f0f0f0;
 }
-a:hover {
-    color: violet;
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
-button:hover {
-    background-color: #4c936d;
+tbody tr:hover {
+    background-color: rgba(221, 221, 221, 0.8);
+}
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #ddd;
+    z-index: 2;
 }
