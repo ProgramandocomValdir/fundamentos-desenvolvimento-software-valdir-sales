@@ -1,145 +1,93 @@
 
-
-body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-   
+img {
+    border-radius: 8px;
+    max-width:70%;
+    height: auto;
 }
 
 h1 {
-    color: #2e8b57;
+    color: olive;    
     text-align: center;
+    font-size:  35px;
+    margin-top: 20px;
 }
-
-h2 {
-    text-align:center;
-
-}
-
-.h2-paises {
-    color: darkblue;
-    font-size: 23px
-}
-
 p {
-    font-size: 18px;
     text-align: justify;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-}
-
-@media (max-width: 600px) {
-    .container {
-        padding: 15px;
-    }
-    .canal-youtube {
-        font-size: 22px;
-    }
-    .botao-mensagem {
-        font-size: 24px;
-        padding: 12px 24px;
-    }
+}   
+body {
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 5px;
+    font-size: 20px; 
+    color: darkslategrey;
+    padding: 30px;
 }
 ul li {
-    line-height: 2em;
-    margin-bottom: 10px;
-    font-size: 23px;
-    color: darkblue;
+    margin-bottom: 12px;
+    color: rgb(173, 10, 202);
 }
-@media (max-width: 600px) {
-ul li {
-        font-size: 26px;
-        line-height: 2.2em;
-    }
-}
-a {
-    color: #2e8b57;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-img {
-    border-radius: 10px;
-    max-width: 80%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-.canal-youtube {
-    font-size: 23px;
+h2 {
+    color: olive;
     text-align: center;
-    margin: 20px 0;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
 }
-.botao-mensagem {
-    font-size:25px;
-    padding: 10px 20px;
-    display: block;
-    margin: 0 auto;
-    background:  #ff4500;
-    color: white;
-    border: none;
+.galeria {
+    text-align: center;
+
+
+}
+
+.galeria img {
+    margin: 12px;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 8px;
-    cursor:pointer;
-}
-a:hover {
-    color: #cc3700;
+
 
 }
-
-.centralizado {
-    text-align: center;
-}
-
 .table-container {
     overflow-y: auto;
+    border-radius: 8px;
     border:3px solid #ccc;
     max-height: 500px;
+    margin-top: 20px;
 }
-
 table {
     width: 100%;
-    margin: 20px auto;
-    border-collapse: collapse;
+    height: auto;
+    overflow: hidden;
+    border-collapse:collapse;
+    background-color: rgb(210, 203, 212);  
 }
-
+table img {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
 th, td {
-    padding: 10px;
     border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
     text-align: center;
+    border: 3px solid rgb(158, 85, 174);
 }
-th {
-    background-color: #f0f0f0;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-tbody tr:hover {
-    background-color: rgba(221, 221, 221, 0.8);
-}
-
-
-thead {
-    position: sticky;
-    top: 0;
-    background-color: #ddd;
-    z-index: 2;
-}
-
-
 button {
-    background-color: #2e8b57;
-    color: white;
+    background-color: grey;
+    color: black;
     border: none;
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 6px;
 }
-
+a:hover {
+    color: violet;
+}
 button:hover {
-    background-color: #1e6840;
+    background-color: #4c936d;
 }
