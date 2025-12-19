@@ -11,4 +11,4 @@ Valdir Barboza Sales
 - Estilização com CSS
 - Interatividade com JavaScript
 
-[Veja o projeto publicado](https://programandocomvaldir.github.io/https://github.com/ProgramandocomValdir/fundamentos-desenvolvimento-software-valdir-sales/tree/main/)
+[Veja o projeto publicado](https://programandocomvaldir.github.io/fundamentos-desenvolvimento-software-valdir-sales/)
